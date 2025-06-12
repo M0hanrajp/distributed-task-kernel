@@ -131,14 +131,10 @@ To build the DTK project, you will need a C++ compiler (like g++) & CMake.
     * **Example:** `submit JOB_C "process_file_xyz"`
     # Note that the data is just for simulation
 
-#### **`shutdown`**: 
+#### **`shutdown` or `exit` **: 
 
-Initiates a graceful shutdown of the DTK system. It clears all pending tasks and deallocates node resources.
-    * **Example:** `shutdown`
-
-#### **`exit`**: 
-Exits the DTK command-line interface. If `shutdown` was not called, it will trigger the shutdown process automatically.
-    * **Example:** `exit`
+- Initiates a graceful shutdown of the DTK system. It clears all pending tasks and deallocates node resources.
+- Exits the DTK command-line interface. If `shutdown` was not called, it will trigger the shutdown process automatically.
 
 #### **`status:`**
 
