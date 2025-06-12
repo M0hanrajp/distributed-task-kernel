@@ -1,0 +1,47 @@
+# Build directory
+/build/
+
+# CMake generated files
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/Makefile.cmake
+/Makefile2
+/TargetDirectories.txt
+/compile_commands.json
+
+# Object files and libraries
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+dtk_kernel_app
+
+# Install directories (if you ever use them)
+/install/
+
+# Editor/IDE files (optional but common)
+/.vscode/
+/.idea/
+/*.code-workspace
+
+# MacOS Finder files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*~
+
+# Coverage and testing artifacts (if you add tests later)
+coverage.info
+lcov-report/
